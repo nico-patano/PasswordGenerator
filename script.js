@@ -24,7 +24,7 @@ function generatePassword() {
   //if else confirm character length and options
   if (length >= 8 && length <= 128 ) {
   } else {
-      return alert("Password length must be between 8 and 128 characters");
+      return alert("Please enter a password length between 8 and 128 characters");
       
   } 
   
