@@ -21,10 +21,11 @@ function generatePassword() {
   // Ask user for length
   let length = prompt("Choose password length between 8-128 characters?")
   
-  //if else confrim character length and options
+  //if else confirm character length and options
   if (length >= 8 && length <= 128 ) {
   } else {
       return alert("Password length must be between 8 and 128 characters");
+      
   } 
   
   
@@ -62,9 +63,7 @@ function generatePassword() {
 
   if(includeLower===true){
     selectedItems=selectedItems.concat(lowerCase);
-  } else {
-   
-  }
+  } 
 
   if(includeUpper===true){
       selectedItems=selectedItems.concat(upperCase); 
